@@ -11,6 +11,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata = {
   title: "GearWear",
   description: "GearWear is your ultimate destination for high-performance sports gear — from snowboards and wetsuits to protective equipment and outdoor apparel. Designed for adventure, built for durability.",
