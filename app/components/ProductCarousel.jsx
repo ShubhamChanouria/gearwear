@@ -46,7 +46,7 @@ export default function ProductCarousel() {
       {/* Foreground content */}
       <div className="relative z-10 px-6 md:px-20 py-16">
         {/* Tabs and arrows */}
-        <div className="flex justify-between items-center mb-8 ml-[7rem">
+        <div className="flex justify-between items-center mb-8 ml-[7rem]">
           <div className="flex gap-6 items-center">
             <h2 className="text-3xl font-bold cursor-pointer">Snowboards</h2>
             <h2 className="text-sm text-gray-500 cursor-pointer font-semibold">Goggles</h2>

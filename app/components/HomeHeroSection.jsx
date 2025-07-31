@@ -21,12 +21,14 @@ export default function HomeHeroSection() {
 
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-6 max-w-6xl mx-auto">
+          <div className='sm:mb-[100px] mb-0px'>
           <p className="uppercase text-sm tracking-wide text-gray-300 mb-2">Explore the new season</p>
           <h1 className="text-4xl md:text-5xl font-normal leading-tight">
             The Ultimate Place <br />
             for <span className="font-semibold">Adventure & <br/> Outdoor Gear</span>
           </h1>
          <p className='uppercase mt-6 text-[15px] cursor-pointer'>Read our story</p>
+        </div>
         </div>
       </div>
 
