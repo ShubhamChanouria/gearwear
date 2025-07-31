@@ -5,6 +5,8 @@ import SurfVideoSection from "./components/SurfVideoSection";
 import Footer from "./components/Footer";
 import ReversedProductCarousel from "./components/ReversedProductCarousel";
 import WetsuitsHighlightSection from "./components/WetsuitsHighlightSection";
+import OutdoorSportsShowcase from "./components/OutdoorSportsShowcase";
+import NewsTravelHighlights from "./components/NewsTravelHighlights";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
     <SurfVideoSection/>
     <ReversedProductCarousel/>
     <WetsuitsHighlightSection/>
+    <NewsTravelHighlights/>
+    <OutdoorSportsShowcase/>
     <Footer/>
     </div>
   );

@@ -17,9 +17,7 @@ export default function Footer() {
            height={30}
            />
           </div>
-          <p className="text-sm text-gray-400 max-w-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-          </p>
+         
         </div>
 
         {/* Email Input */}
@@ -41,7 +39,7 @@ export default function Footer() {
         <div>
           <h4 className="text-sm font-bold mb-4 tracking-widest">SUPPORT</h4>
           <p className="text-sm text-gray-400 mb-2">1 800 234 4536</p>
-          <p className="text-sm text-gray-400 mb-4">info@trueyonder.com</p>
+          <p className="text-sm text-gray-400 mb-4">info@gearwear.com</p>
           <div className="flex gap-4">
             <IconCircle icon={<FaFacebookF />} />
             <IconCircle icon={<FaInstagram />} />
@@ -68,7 +66,7 @@ export default function Footer() {
         <p>
           Terms & Conditions <span className="mx-2">|</span> Privacy <span className="mx-2">|</span> Site Map
         </p>
-        <p className="mt-2">© 2025 TrueYonder. All rights reserved.</p>
+        <p className="mt-2">© 2025 GearWear. All rights reserved.</p>
       </div>
     </footer>
   );

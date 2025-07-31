@@ -38,7 +38,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           {/* Search Bar */}
           <div className="relative">
-            <div className="flex items-center bg-black bg-opacity-30 rounded-full px-4 py-2 backdrop-blur-sm">
+            <div className="flex items-center border-white border-[1px] w-[250px] rounded-full px-4 py-2 backdrop-blur-sm">
               <svg className="w-4 h-4 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
