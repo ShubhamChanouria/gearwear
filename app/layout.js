@@ -12,19 +12,18 @@ const geistMono = Geist_Mono({
 });
 
 
-export const metadata = {
+export const metadata = {  
   title: "GearWear",
-  description: "GearWear is your ultimate destination for high-performance sports gear — from snowboards and wetsuits to protective equipment and outdoor apparel. Designed for adventure, built for durability.",
+  description: "GearWear is your ultimate destination for high-performance sports gear from snowboards and wetsuits to protective equipment and outdoor apparel. Designed for adventure, built for durability.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
-      </body>
+      </body> 
     </html>
   );
 }
+

@@ -46,7 +46,7 @@ export default function SurfVideoSection() {
         ref={videoRef}
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="/surfVideo.mp4"
-        poster="/surfVideoPreview.jpg" // <-- Preview image
+        poster="/surfVideoPreview.jpg" 
         muted
         playsInline
         preload="auto"

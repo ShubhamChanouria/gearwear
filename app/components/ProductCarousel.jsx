@@ -81,8 +81,8 @@ export default function ProductCarousel() {
           ))}
         </div>
 
-        {/* Brand logos and CTA */}
-        {/* <div className="flex justify-between items-center mt-10">
+        {/* Brand logos and CTA */} 
+        {/* <div className="flex justify-between items-ce nter mt-10">
           <div className="flex gap-10 grayscale opacity-60">
             <img src="/burton.svg" className="h-6" />
             <img src="/salomon.svg" className="h-6" />

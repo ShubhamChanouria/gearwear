@@ -50,7 +50,7 @@ export default function ReversedProductCarousel() {
             <div className="flex gap-6 items-center">
               <h2 className="text-3xl font-bold cursor-pointer">Surfboards</h2>
               <h2 className="text-sm text-gray-500 cursor-pointer font-semibold">Wetsuits</h2>
-              <h2 className="text-sm text-gray-500 cursor-pointer font-semibold">Fins</h2>
+              <h2 className="text-sm text-gray-500  cursor-pointer font-semibold">Fins</h2>
               <h2 className="text-sm text-gray-500 cursor-pointer font-semibold">Accessories</h2>
             </div>
             <div className="hidden md:flex gap-3">
